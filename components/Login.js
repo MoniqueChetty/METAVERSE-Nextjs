@@ -25,9 +25,11 @@ function Login() {
           Login to METAVERSE
         </button>
         <Link href="https://medium.com/@alias_73214/guide-how-to-setup-metamask-d2ee6e212a3e">
-          <div className="bg-yellow-500 rounded-lg  px-4 font-bold animate-[wiggle_1s_ease-in-out_infinite] ">
-            <Image src={metamasklogo} height={75} width={160} />
-          </div>
+          <a target="_blank">
+            <div className="bg-yellow-500 rounded-lg  px-4 font-bold animate-[wiggle_1s_ease-in-out_infinite] ">
+              <Image src={metamasklogo} height={75} width={160} />
+            </div>
+          </a>
         </Link>
       </div>
 
