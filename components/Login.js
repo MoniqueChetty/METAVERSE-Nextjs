@@ -9,7 +9,7 @@ function Login() {
   const { authenticate } = useMoralis();
   return (
     <div className="bg-black relative text-black ">
-      <div className="pt-50 md:pr-96 flex flex-col absolute  z-50 h-4/6 w-full items-center justify-center space-y-4  ">
+      <div className="pt-50 md:pr-96 flex flex-col absolute  z-50 h-4/6 w-full items-center justify-center space-y-4 ">
         <Image
           // src="https://links.papareact.com/3pi"
           src={anipic}
