@@ -2,18 +2,19 @@ import Image from "next/image";
 import { useMoralis } from "react-moralis";
 import Avatar from "./Avatar";
 import ChangeUserName from "./ChangeUserName";
+import anipic from "../public/images/anipic.png";
 
 function Header() {
   const { user } = useMoralis();
 
   return (
-    <div className="sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-500 text-pink-500">
+    <div className="sticky top-0 p-5 z-50 backdrop-blur-md shadow-sm border-b-2 border-pink-500 text-pink-500">
       <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center">
         <div className="relative h-24 w-24 mx-auto hidden lg:inline-grid">
           <Image
             className="rounded-full "
             objectFit="cover"
-            src="https://links.papareact.com/3pi"
+            src={anipic}
             layout="fill"
           />
         </div>
