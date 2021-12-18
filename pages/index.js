@@ -1,8 +1,7 @@
-import Image from "next/image";
 import Head from "next/head";
 import Login from "../components/Login";
 import { useMoralis } from "react-moralis";
-import portal from "../public/images/portal1.jpg";
+
 import Header from "../components/Header";
 import Messages from "../components/Messages";
 
@@ -22,7 +21,6 @@ export default function Home() {
       <div>
         <div className="max-w-screen-2xl mx-auto ">
           <Header />
-
           <Messages />
         </div>
       </div>
